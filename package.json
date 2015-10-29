@@ -4,7 +4,7 @@
   "description": "Promise library written by the node meetup in Auckland",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel/register --recursive specs && standard"
+    "test": "mocha --compilers js:babel/register --recursive specs"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
     "babel": "^5.8.19",
     "babel-eslint": "^4.0.5",
     "chai": "^3.2.0",
-    "mocha": "^2.2.5",
-    "standard": "^4.5.4"
+    "mocha": "^2.2.5"
   }
 }
